@@ -49,7 +49,7 @@ Source: "unicode\idplang\*.iss";        DestDir: "{app}\source\unicode\idplang";
 Source: "ansi\idplang\*.iss";           DestDir: "{app}\source\ansi\idplang";    Components: src
 Source: "setup.iss";                    DestDir: "{app}\source";                 Components: src
 Source: "InnoDownloadPlugin.sln";       DestDir: "{app}\source";                 Components: src
-Source: "InnoDownloadPlugin.workspace"; DestDir: "{app}\source";                 Components: src
+;Source: "InnoDownloadPlugin.workspace"; DestDir: "{app}\source";                 Components: src
 Source: "idp\idp.vcproj";               DestDir: "{app}\source\idp";             Components: src
 Source: "idp\idp.cbp";                  DestDir: "{app}\source\idp";             Components: src
 Source: "idp\*.cpp";                    DestDir: "{app}\source\idp";             Components: src
